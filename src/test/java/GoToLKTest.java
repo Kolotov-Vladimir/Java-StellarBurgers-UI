@@ -14,7 +14,7 @@ import static config.URL.*;
 import static config.UserAPI.token;
 
 @DisplayName("Переход по клику на «Личный кабинет»")
-public class GoToLK extends YandexBrowser {
+public class GoToLKTest extends YandexBrowser {
     Profile profile;
     Feed feed;
     LogIn logIn;

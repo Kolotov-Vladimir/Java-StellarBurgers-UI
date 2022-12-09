@@ -1,4 +1,3 @@
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import config.YandexBrowser;
 import io.qameta.allure.junit4.DisplayName;
@@ -12,7 +11,7 @@ import static config.URL.LOGIN_PAGE;
 import static config.URL.MAIN_PAGE;
 
 @DisplayName("Переход из личного кабинета в конструктор")
-public class GoToConstructor extends YandexBrowser {
+public class GoToConstructorTest extends YandexBrowser {
     LogIn logIn;
 
     @Before
