@@ -1,0 +1,10 @@
+pageObject\ForgotPassword.class
+pageObject\Profile.class
+config\GenerateUserData.class
+config\UserAPI.class
+config\URL.class
+pageObject\Feed.class
+pageObject\MainPage.class
+pageObject\Registration.class
+config\YandexBrowser.class
+pageObject\LogIn.class
